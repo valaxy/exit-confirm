@@ -5,12 +5,12 @@ A javascript module, popup a dialog to confirm when exit a page
 
 # Introduction
 ```javascript
-var NosaveConfirm = require('bower_components/nosave-confirm')
+var ExitConfirm = require('bower_components/exit-confirm/exit-confirm')
 var saveFlag = false
 
 // pass a message and a state-confirm function
-var handler = new NosaveConfirm('You have not saved, confirm to exit?', function () {
-	return saveFlag
+var handler = new ExitConfirm('You have not saved, confirm to exit?', function () {
+	return saveFlag // return false then popup a dialog, otherwise not
 })
 
 // open bind
