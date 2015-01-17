@@ -1,0 +1,19 @@
+{
+  "name": "nosave-prompt",
+  "version": "0.0.0",
+  "homepage": "https://github.com/valaxy/nosave-prompt",
+  "authors": [
+    "valaxy <valaxy.tian@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "seajs": "~2.3.0"
+  }
+}
