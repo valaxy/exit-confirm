@@ -1,10 +1,6 @@
 {
-  "name": "nosave-confirm",
+  "name": "exit-confirm",
   "version": "0.0.1",
-  "homepage": "https://github.com/valaxy/nosave-prompt",
-  "authors": [
-    "valaxy <valaxy.tian@gmail.com>"
-  ],
   "license": "MIT",
   "ignore": [
     "**/.*",
