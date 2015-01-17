@@ -5,7 +5,7 @@ A javascript module, popup a dialog to confirm when exit a page
 
 # Introduction
 ```javascript
-var NosaveConfirm = require('bower_components/nosave-prompt')
+var NosaveConfirm = require('bower_components/nosave-confirm')
 var saveFlag = false
 
 // pass a message and a state-confirm function
